@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Le Wagon - Web Development Sprint</title>
+
+  <!-- Change these Google fonts with your own choice -->
+  <link href="https://fonts.googleapis.com/css?family=PlusJakartaSans:400|Overpass:400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+     /* Additional CSS for positioning */
+     .banner {
+      position: relative;
+      text-align: center;
+    }
+
+    .banner h1 {
+      position: absolute;
+      top: 50px;
+      left: 52%;
+      transform: translateX(-50%);
+      margin: 0;
+      font-size: 4vw;
+      font-family: 'Times New Roman';
+      color: black;
+    }
+
+    .banner img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* Additional CSS for the Style by Colomb section */
+    .StylebyColomb-Section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .StylebyColomb-Section .content {
+      flex: 1;
+      padding-right: 70px;
+    }
+
+    .StylebyColomb-Section h3 {
+      position: relative;
+      top: -15px;
+      left: 140px;
+      font-size: 3.2vw;
+      margin-bottom: 50px;
+      font-family: 'Times New Roman';
+    }
+
+    .StylebyColomb-Section p {
+      position: relative;
+      left: 70px;
+      margin-top: 50px;
+      margin-right: 100px;
+      align-content: center;
+      font-size: 1.7vw;
+      text-align: justify;
+    }
+
+    .StylebyColomb-Section img {
+      flex: 1;
+      width: 50%;
+    }
+
+    /* Additional CSS for the Our Services section */
+    .OurServices-Section {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .OurServices-Section .content {
+      flex: 1;
+      text-align: center;
+    }
+
+    .OurServices-Section h3 {
+      position: relative;
+      top: -15px;
+      font-size: 3.2vw;
+      margin-bottom: 50px;
+      font-family: 'Times New Roman';
+    }
+
+    .OurServices-Section p {
+      position: relative;
+      align-content: center;
+      font-size: 1.7vw;
+    }
+
+    .OurServices-Section img {
+      flex: 1;
+      width: 50%;
+    }
+
+    /* Additional CSS for the Separator*/
+    .separator {
+      height: 1px;
+      background-color: white;
+      margin: 0 auto;
+      width: 100%; 
+    }
+
+    /* Additional CSS for the Get in Touch section */
+    .GetinTouch-Section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .GetinTouch-Section p {
+      position: relative;
+      left: 100px;
+      margin-top: 50px;
+      margin-right: 150px;
+      align-content: center;
+      font-size: 1.7vw;
+      text-align: center;
+    }
+
+    .GetinTouch-Section button {
+      position: relative;
+      left: 100px;
+      margin-top: 50px;
+      margin-right: 150px;
+      align-content: center;
+      text-align: center;
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      border-radius: 12px;
+      padding: 10px;
+      font-size: 1.7vw;
+      cursor: pointer;
+    }
+
+    .GetinTouch-Section button:hover {
+      background-color: #a5a5a5;
+    }
+
+    /* Additional CSS for the Pictures section */
+    .Pictures-Section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      padding-top: 60px;
+    }
+
+    /* Additional CSS for the Press section */
+    .Press-Section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 4vw;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .Logo-Section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 60px;
+    }
+
+    .Logo-Section img {
+      margin-right: 5%;
+      margin-left: -5%;
+    }
+
+    .Press-Section h3 {
+      position: relative;
+      align-content: center;
+      font-size: 3.2vw;
+      margin-bottom: 50px;
+      font-family: 'Times New Roman';
+    }
+
+    /* Additional CSS for the Footer section */
+    .footer {
+      position: relative;
+      text-align: center;
+      background-color: #c7ae86;
+      color: black;
+      height: 140px;
+    }
+
+    .footer p {
+      position: relative;
+      font-size: 1.7vw;
+      padding-top: 40px;
+      text-align: center;
+    }
+
+
+  </style>
+</head>
+<body style="background-color: black; color: white;">
+
+  <!-- Banner section -->
+<div class="banner">
+  <img src="CH_2.png" alt="City Suite">
+  <h1>Faustine Colomb</h1>
+</div>
+
+  <!-- Style by Colomb Section -->
+<div class="StylebyColomb-Section">
+  <div class="content">
+   <h3>Style by Colomb</h3> 
+   <p>Ever wanted your home to be styled by a professional, or need help with a photo shoot, then this bespoke service is for you. Our dedicated styling team can create, source, and provide new styling solutions for all types of projects. </p>
+  </div>
+  <img src="SDB.png" alt="City Suite">
+</div> 
+
+  <!-- Our Services section -->
+<div class="OurServices-Section">
+  <div class="content">
+    <h3>Our Services</h3>
+    <p>A tailored scope to fit your needs.<br><br>
+      Concept mood boards and design including floorplans and key elevations where needed are provided.<br><br>
+      Sketches to provide design insight where needed.<br><br>Installation guidance.</p>
+  </div>
+  <img src="CH_4.png" alt="City Suite">
+</div>
+
+<br>
+<div class="separator"></div>
+
+  <!-- Get in Touch section -->
+  <div class="GetinTouch-Section">
+    <div class="content">
+      <p>If you have an interesting project or commission you want to discuss,
+         please complete the form below and we will contact you to discuss your project.</p>
+    </div>
+  <a href="https://www.kellyhoppeninteriors.com/stylebyhoppen">
+    <button class="white-button">GET IN TOUCH</button>
+  </a>
+  </div>
+
+  <!-- Pictures section -->
+  <div class="Pictures-Section">
+    <img src="door.jpg" width="32%" alt="Mansion">
+    <img src="cuisine.jpg" width="32%" alt="Appartment">
+    <img src="Pot de fleur.jpeg" width="32%" alt="Mansion">
+  </div>
+
+  <!-- Press Section -->
+<div class="Press-Section">
+  <div class="content">
+   <h3>They've talked about us</h3> 
+  </div>
+<div class="Logo-Section">
+  <img src="vogue.png" width="25%" alt="Magasine">
+  <img src="AD.png" width="10%" alt="Magasine">
+</div>
+</div> 
+
+  <!-- Footer section -->
+  <div class="footer">
+    <p> <i>Photographer Credits:</i> © Pernilla Danielsson and Silje Forbes <br><br> <i>Website:</i> © Faustine Colomb</p>
+  </div>
+  
+</body>
+</html>
